@@ -165,10 +165,99 @@ button {
     line-height: 28px;
 }
 
+.projects {
+    padding-top: 126px;
+    padding-bottom: 108px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-image {
+    border-radius: 6px;
+    width: 338px;
+    height: 268px;
+    object-fit: cover;
+}
+
+.project-text {
+    flex-basis: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-title {
+    flex-basis: 100%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 41px;
+}
+
+.project-time,
+.project-cost {
+    display: flex;
+    align-items: flex-start;
+    flex-basis: 40%;
+    margin-bottom: 44px;
+}
+
+.progect-feedback {
+    flex-basis: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-description {
+    margin-left: 16px;
+}
+
+.project-subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 7px;
+}
+
+.project-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.project-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.projects-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #FFBB01;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.projects-bullet-active {
+    background: #FFBB01;
+}
+
 .section {
     padding-top: 57px;
     padding-bottom: 148px;
 }
+
 .contacts-block {
     display: flex;
     align-items: center;
