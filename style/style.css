@@ -462,6 +462,7 @@ button {
         font-size: 14px;
         line-height: 140%;
         margin-bottom: 34px;
+        max-width: 300px;
     }
 
     .button {
