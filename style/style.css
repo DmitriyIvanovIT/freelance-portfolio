@@ -537,6 +537,7 @@ button {
     }
 
     .contacts-link {
+        display: inline-block;
         font-size: 14px;
         line-height: 16px;
     }
